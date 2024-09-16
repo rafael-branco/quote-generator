@@ -1,0 +1,58 @@
+* {
+    font-family: 'SUSE';
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.quote-box input,
+.quote-box textarea,
+.quote-box .button {
+    max-width: 300px;
+    width: 100%;
+    margin: 10px;
+    resize: none;
+    border: 2px solid black;
+    padding: 10px;
+    box-sizing: content-box;
+
+}
+
+.quote-box textarea {
+    height: 150px;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+.button:hover {
+    background-color: #333;
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
